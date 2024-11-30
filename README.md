@@ -79,7 +79,7 @@ import openvino_genai as ov_genai
 
 device = "CPU"
 pipe = ov_genai.LLMPipeline(model_path, device)
-print(pipe.generate("What is OpenVINO?", max_length=200))
+print(pipe.generate("O que é openVINO", max_length=200))
 ```
 
 More GenAI usage examples can be found in OpenVINO GenAI library [docs](https://github.com/openvinotoolkit/openvino.genai/blob/master/src/README.md) and [samples](https://github.com/openvinotoolkit/openvino.genai?tab=readme-ov-file#openvino-genai-samples)
