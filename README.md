@@ -44,7 +44,7 @@ model_id = "cabelo/Tucano-2b4-Instruct-fp16-ov"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = OVModelForCausalLM.from_pretrained(model_id)
 
-inputs = tokenizer("O que é openVINO?", return_tensors="pt")
+inputs = tokenizer("O que é carnaval?", return_tensors="pt")
 
 outputs = model.generate(**inputs, max_length=200)
 text = tokenizer.batch_decode(outputs)[0]
@@ -79,7 +79,7 @@ import openvino_genai as ov_genai
 
 device = "CPU"
 pipe = ov_genai.LLMPipeline(model_path, device)
-print(pipe.generate("O que é openVINO", max_length=200))
+print(pipe.generate("O que é carnaval?", max_length=200))
 ```
 
 More GenAI usage examples can be found in OpenVINO GenAI library [docs](https://github.com/openvinotoolkit/openvino.genai/blob/master/src/README.md) and [samples](https://github.com/openvinotoolkit/openvino.genai?tab=readme-ov-file#openvino-genai-samples)
