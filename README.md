@@ -4,7 +4,8 @@ license_link: https://choosealicense.com/licenses/apache-2.0/
 base_model:
 - TucanoBR/Tucano-2b4-Instruct
 ---
-<img src="./logotucano.png" alt="An illustration of a Tucano bird showing vibrant colors like yellow, orange, blue, green, and black." height="200">
+
+![logotucano](https://github.com/user-attachments/assets/9ab82e1f-ccc5-4917-a94e-8bce607fb613)
 
 # Tucano-2b4-Instruct-fp16-ov
 * Model creator: [TucanoBR](https://huggingface.co/TucanoBR)
