@@ -57,11 +57,14 @@ For more examples and possible optimizations, refer to the [OpenVINO Large Langu
 
 1. Install packages required for using OpenVINO GenAI.
 ```
-pip install --upgrade-strategy eager -r export-requirements.txt
-
+pip install --upgrade-strategy eager -r requirements.txt
 ```
 
-2. Download model from HuggingFace Hub
+2. Run example.
+```
+python inference-Tucano-2b4-Instruct.py
+```
+3. Download model from HuggingFace Hub
    
 ```
 import huggingface_hub as hf_hub
