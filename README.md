@@ -64,7 +64,7 @@ pip install --upgrade-strategy eager -r requirements.txt
 ```
 python inference-Tucano-2b4-Instruct.py
 ```
-3. Download model from HuggingFace Hub
+3. Or download model from HuggingFace Hub
    
 ```
 import huggingface_hub as hf_hub
@@ -76,7 +76,7 @@ hf_hub.snapshot_download(model_id, local_dir=model_path)
 
 ```
 
-3. Run model inference:
+4. Run model inference:
 
 ```
 import openvino_genai as ov_genai
