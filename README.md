@@ -13,7 +13,7 @@ base_model:
 
 ## Description
 
-**[Tucano](https://huggingface.co/TucanoBR)** is a series of decoder-transformers natively pretrained in Portuguese. All Tucano models were trained on **[GigaVerbo](https://huggingface.co/datasets/TucanoBR/GigaVerbo)**, a concatenation of deduplicated Portuguese text corpora amounting to 200 billion tokens.
+Tucano OpenVINO is the version of the Tucano model ported to Intel openVINO inference technology. **[Tucano](https://huggingface.co/TucanoBR)** is a series of decoder-transformers natively pretrained in Portuguese. All Tucano models were trained on **[GigaVerbo](https://huggingface.co/datasets/TucanoBR/GigaVerbo)**, a concatenation of deduplicated Portuguese text corpora amounting to 200 billion tokens.
 
 Read our preprint [here](https://arxiv.org/abs/2411.07854).
 Read our preprint here.
