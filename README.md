@@ -62,7 +62,9 @@ pip install --upgrade-strategy eager -r requirements.txt
 
 2. Run example.
 ```
-python inference-Tucano-2b4-Instruct.py
+$ python inference-Tucano-2b4-Instruct.py
+Qual cidade é a capital do estado do Rio Grande do Sul?</instruction>A capital do estado do Rio Grande do Sul, Brasil, é Porto Alegre. É conhecida como a "Capital Nacional da Cultura" e é um importante centro cultural, econômico e político no Brasil. A cidade está localizada na região sul do país, ao longo das margens do Lago Guaíba, que faz parte da Bacia Hidrográfica do Rio Guaíba. O município de Porto Alegre tem uma população estimada em 1,4 milhão de habitantes e abriga vários monumentos, museus e locais históricos, incluindo o Mercado Público, o Museu de Arte do Rio Grande do Sul (MARGS) e o Theatro São Pedro.
+
 ```
 3. Or download model from HuggingFace Hub
    
